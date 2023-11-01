@@ -1,0 +1,26 @@
+body{
+    background-color: #042b0a;
+}
+
+h1{
+    color:#ad0202;
+    background-color: cornsilk;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 20s;
+    margin-top:100px;
+    animation-iteration-count:infinite;
+
+}
+@keyframes example{
+    from {box-shadow: 20px 20px 40px aquamarine;}
+    to {box-shadow: -20px -20px 40px #fc5e03}
+}
+p{
+    color: red;
+    padding-top: 10px;
+    font-size:25px;
+}
